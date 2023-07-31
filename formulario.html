@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="designer_formulario.css">
+<title>Formulário</title>
+</head>
+
+<body>
+<form id="forma">
+<label><br> <br> <br>
+          <h1 id="cadastro"><b><h1>Cadastro do Usuário</h1></b></h1><br>
+          <hr><label><b>Nome Completo: </b>
+                    <input type="text" name="nome" id="nome" title="Nome completo" required>
+                    <small id="textNome"></small><br><br>
+
+          </label><br> <br> <br>
+          <label>
+                    <b>Endereço Completo: </b>
+                    <input type="text" name="endereco" id="endereco" required>
+          </label><br> <br> <br>
+          <label><b>Data de Nascimento: </b>
+                    <input type="date" name="data_nasc" id="data_nasc" required>
+          </label><br> <br> <br>
+          <label><b>Idade: </b>
+                    <input type="number" name="idade" id="idade" min="64" max="150">
+          </label><br> <br> <br>
+          <label><b>CPF: </b>
+                    <input type="text" name="cpf" id="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                              title="Digite o CPF no formato: XXX.XXX.XXX-XX" required>
+          </label><br> <br> <br>
+          <label>
+          <label><b>Sexo: </b>
+          <select name="genero" id="genero" required>
+                    <option value="feminino" selected="feminino">Feminino
+                    </option>
+                    <option value="masculino">Masculino</option>
+                    <option value="lgbtqia+">LGBTQIA+</option>
+                    <option value="nenhuma">Nenhuma das Opções</option>
+          </select>
+          </label><br> <br> <br>
+          <label><b>Etnia:</b>
+          <select name="etnia" id="etnia" required>
+          <option value="negra">Negra</option>
+          <option value="branca">Branca</option>
+          <option value="parda">Parda</option>
+          <option value="nenhuma">Nenhuma das Opções</option>
+          </select>
+          </label><br> <br> <br>
+          <div>
+                    <label for="email"><b>E-mail: </b>
+                    <input type="text" id="email" placeholder="Digite seu e-mail"  required> 
+          </label>                  
+          </div><br><br> 
+          <div>
+          <label for="password"><b>Senha: </b>
+                    <input type="password" id="password" placeholder="Digite sua senha"  required>
+          </label>                  
+          </div><br><br>  
+          <label for="password"><b>Confirma sua senha: </b>
+                    <input type="password" id="password" placeholder="Confirme sua senha"  required>
+                    </label>                  
+                    </div><br><br>     
+          <button type="submit" id="button"><b>Enviar</b></button>
+</form>
+<script src="formulario.js"></script>
+</body>
+</html>

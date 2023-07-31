@@ -1,0 +1,60 @@
+#tele{
+background-color :#80bfff;
+width: 100px;
+height: 100px;
+
+}
+.continer{
+float:center;
+margin: 70px 70px 20px 5px;
+border-radius: 30px ;
+}
+#form-validate{
+background-color:#ffff99;
+border-radius: 30px ;
+width: 900px;
+height: 500px;
+text-align: center;
+margin: 70px 20px 20px 200px;
+border:2px solid black;
+cursor:pointer;
+font-size: 14px;
+font-family: arial;
+padding: 4px 8px ;
+border:none;
+}
+input{ border-radius: 30px;
+cursor:pointer;
+font-size: 18px;
+font-family: arial;
+width: 320px;
+height: 40px;
+padding: 4px 8px ;
+border:none;
+}
+nav{
+          margin: 50px 20px 20px 20px;
+padding: 4px 8px ;
+}
+a{
+text-decoration: none;
+color: #000000;
+cursor: pointer;
+font-size: 18px;
+}
+
+#button{
+background-color: #1e90ff;
+cursor: pointer;
+border-radius: 30px ;
+padding: 4px 8px ;
+width: 300px;
+height: 40px;
+font-size: 18px;
+border:none;
+}
+#button:hover{
+background-color: cornsilk;
+color: #000000;
+
+}

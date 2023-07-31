@@ -1,0 +1,113 @@
+body{
+          background-color:#80bfff;
+          width: 0px ;
+          height:0px ;
+}
+#cadastro{
+          font-size: 20px;
+          font-family: arial;
+          text-align:center;
+}
+#forma{
+          display: flex;
+          flex-direction: column;    
+          background-color:#ffff99;
+          width: 500px;
+          height: 1000px;
+          margin: 20px 60px 20px 400px;
+          font-size: 14px;
+          font-family: arial;
+          cursor:pointer;  
+          padding:6px 20px ; 
+          border-radius: 20px ; 
+}
+
+#nome{
+          border-radius: 30px ;
+          width: 300px;
+          height:20px;
+          padding:6px 30px ;
+          color: #000000; 
+          cursor:pointer;     
+}
+#endereco{
+          border-radius: 30px ;
+          width: 300px;
+          height:20px;
+          padding:6px 20px ; 
+          color: #000000; 
+          cursor:pointer;       
+}
+
+#genero{       
+          
+          padding:6px 60px ; 
+          color: #000000; 
+          cursor:pointer; 
+          border:1px solid;
+          border-radius: 30px ;
+}
+
+#etnia{
+          padding:6px 60px ; 
+          color: #000000; 
+          cursor:pointer; 
+          border:1px solid;
+          border-radius: 30px ;
+}
+
+#data_nasc{
+          border-radius: 30px ;
+          width: 200px;
+          height:20px;
+          padding:6px 60px ; 
+          color: #000000;  
+          cursor:pointer;      
+}
+#cpf{
+          border-radius: 30px ;
+          width: 50px;
+          height:20px;
+          padding:6px 60px ; 
+          color: #000000; 
+          cursor:pointer;  
+}
+#idade{
+          border-radius: 30px ;
+          width: 50px;
+          height:20px;
+          padding:6px 60px ; 
+          color: #000000; 
+          cursor:pointer;       
+}
+
+#email, #password{
+          padding:6px 60px ; 
+          color: #000000; 
+          cursor:pointer; 
+          border:1px solid;
+          border-radius: 30px ;
+}      
+
+
+
+
+
+#button{
+          cursor:pointer;
+          background-color: #1e90ff;
+          color: #000000;;
+          text-align:center;
+          width: 100px;
+          margin:auto; 
+          border-radius: 30px ; 
+          cursor:pointer; 
+          margin: 20px 60px 20px 200px; 
+          
+             
+          
+}
+#button:hover{
+          background-color: cornsilk;
+          color: #000000;;
+}
